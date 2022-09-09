@@ -1,0 +1,19 @@
+const kelvin = 0; // primeira prefisão  de Kelvin
+
+const celsius = kelvin - 273; // valor dado na resposta é o graus de celcius
+
+let fahrenheit = celsius * (9 / 5) + 32; // valor dado é o grus de Fahrenheit
+
+fahrenheit = Math.floor(fahrenheit); // arredondando o valor de fahrenheit usando o .floor
+
+console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+
+// seu programa deve funcionar para qualquer temperatura Kelvin
+
+Newton = celsius * (33 / 100);
+
+Newton = Math.floor(Newton);
+
+console.log(`A temperatura é de ${Newton} graus Newton.`)
+
+// interpolação de string para registrar a temperatura 
